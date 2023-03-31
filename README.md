@@ -66,12 +66,14 @@ print("RMSE =",rmse)
 ## Output:
 ### df.head
 ![image](https://user-images.githubusercontent.com/93587823/229069101-af29452a-d961-418d-b366-24130cec4bd2.png)
+
 ### df.tail
 ![image](https://user-images.githubusercontent.com/93587823/229069686-e8c225b0-9b1c-452c-b42c-420d27f0f3c7.png)
 ### Value of X:
 ![image](https://user-images.githubusercontent.com/93587823/229070072-046735a9-3f1f-4efd-9d11-9f7848460e1f.png)
 ### Value of Y:
 ![image](https://user-images.githubusercontent.com/93587823/229070206-c5fc93d2-9403-4a7b-b617-5e660933845f.png)
+
 ### Predicted value of Y:
 ![image](https://user-images.githubusercontent.com/93587823/229070311-139f4c99-8010-4364-a913-4abb3b93cc2d.png)
 ### Tested value of Y:
