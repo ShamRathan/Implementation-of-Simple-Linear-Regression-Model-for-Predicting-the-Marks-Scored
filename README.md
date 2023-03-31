@@ -1,19 +1,15 @@
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
-
 ## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
 ## Algorithm
 1. Import the required libraries and read the dataframe.
 2. Assign hours to X and scores to Y.
 3. Implement training set and test set of the dataframe.
 4. Plot the required graph both for test data and training data.
 5. Find the values of MSE , MAE and RMSE.
-
 ## Program:
 ```
 /*
@@ -21,7 +17,6 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: S.Sham Rathan
 RegisterNumber: 212221230093
 */
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -66,14 +61,12 @@ print("RMSE =",rmse)
 ## Output:
 ### df.head
 ![image](https://user-images.githubusercontent.com/93587823/229069101-af29452a-d961-418d-b366-24130cec4bd2.png)
-
 ### df.tail
 ![image](https://user-images.githubusercontent.com/93587823/229069686-e8c225b0-9b1c-452c-b42c-420d27f0f3c7.png)
 ### Value of X:
 ![image](https://user-images.githubusercontent.com/93587823/229070072-046735a9-3f1f-4efd-9d11-9f7848460e1f.png)
 ### Value of Y:
 ![image](https://user-images.githubusercontent.com/93587823/229070206-c5fc93d2-9403-4a7b-b617-5e660933845f.png)
-
 ### Predicted value of Y:
 ![image](https://user-images.githubusercontent.com/93587823/229070311-139f4c99-8010-4364-a913-4abb3b93cc2d.png)
 ### Tested value of Y:
